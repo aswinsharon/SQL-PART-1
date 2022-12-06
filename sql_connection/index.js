@@ -6,7 +6,7 @@ const app = express();
 var connection = createConnection({
     host:'localhost',
     user:'root',
-    password:"987654321As*"
+    password:""
 })
 
 connection.connect(function(err){
